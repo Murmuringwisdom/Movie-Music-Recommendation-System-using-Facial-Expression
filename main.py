@@ -13,38 +13,38 @@ haar_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_fronta
 datasets = {
     "hollywood": {
         "movies": {
-            "happy": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Hollywood Movies\\Happy.csv",
-            "sad": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Hollywood Movies\\sad.csv",
-            "angry": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Hollywood Movies\\Angry.csv",
-            "fear": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Hollywood Movies\\Fear.csv",
-            "neutral": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Hollywood Movies\\neutral.csv",
-            "surprise": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Hollywood Movies\\surprise.csv"
+            "happy": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Hollywood Movies\\Happy.csv",
+            "sad": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Hollywood Movies\\sad.csv",
+            "angry": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Hollywood Movies\\Angry.csv",
+            "fear": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Hollywood Movies\\Fear.csv",
+            "neutral": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Hollywood Movies\\neutral.csv",
+            "surprise": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Hollywood Movies\\surprise.csv"
         },
         "songs": {
-            "happy": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Hollywood Songs\\happysh.csv",
-            "sad": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Hollywood Songs\\sadsh.csv",
-            "angry": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Hollywood Songs\\angrysh.csv",
-            "fear": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Hollywood Songs\\fearsh.csv",
-            "neutral": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Hollywood Songs\\neutralsh.csv",
-            "surprise": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Hollywood Songs\\surprisesh.csv"
+            "happy": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Hollywood Songs\\happysh.csv",
+            "sad": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Hollywood Songs\\sadsh.csv",
+            "angry": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Hollywood Songs\\angrysh.csv",
+            "fear": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Hollywood Songs\\fearsh.csv",
+            "neutral": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Hollywood Songs\\neutralsh.csv",
+            "surprise": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Hollywood Songs\\surprisesh.csv"
         }
     },
     "bollywood": {
         "movies": {
-            "happy": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Bollywood movies\\happyb.csv",
-            "sad": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Bollywood movies\\sadb.csv",
-            "angry": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Bollywood movies\\angryb.csv",
-            "fear": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Bollywood movies\\fearb.csv",
-            "neutral": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Bollywood movies\\neutralb.csv",
-            "surprise": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Bollywood movies\\surpriseb.csv"
+            "happy": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Bollywood movies\\happyb.csv",
+            "sad": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Bollywood movies\\sadb.csv",
+            "angry": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Bollywood movies\\angryb.csv",
+            "fear": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Bollywood movies\\fearb.csv",
+            "neutral": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Bollywood movies\neutralb.csv",
+            "surprise": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Bollywood movies\\surpriseb.csv"
         },
         "songs": {
-            "happy": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Bollywood songs\\happybs.csv",
-            "sad": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Bollywood songs\\sadbs.csv",
-            "angry": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Bollywood songs\\angrybs.csv",
-            "fear": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Bollywood songs\\fearbs.csv",
-            "neutral": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Bollywood songs\\neutralbs.csv",
-            "surprise": r"C:\\Users\\arink\\OneDrive\\Desktop\\Dataset\\Bollywood songs\\surprisebs.csv"
+            "happy": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Bollywood songs\\happybs.csv",
+            "sad": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Bollywood songs\\sadbs.csv",
+            "angry": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Bollywood songs\\angrybs.csv",
+            "fear": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Bollywood songs\\fearbs.csv",
+            "neutral": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Bollywood songs\\neutralbs.csv",
+            "surprise": r"C:\Users\Aniket Routray\OneDrive\Desktop\Dataset\Bollywood songs\\surprisebs.csv"
         }
     }
 }
@@ -152,3 +152,4 @@ elif st.session_state.current_page == "type":
     type_page()
 elif st.session_state.current_page == "recognition":
     recognition_page()
+
